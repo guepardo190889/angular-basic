@@ -7,8 +7,6 @@ import { MainComponent } from './shell/main/main.component';
 import { FooterComponent } from './shell/footer/footer.component';
 import { SharedModule } from '../shared/shared.module';
 
-
-
 @NgModule({
   declarations: [
     ShellComponent,
@@ -17,8 +15,7 @@ import { SharedModule } from '../shared/shared.module';
     FooterComponent],
   imports: [
     CommonModule,
-    RouterModule,
-    SharedModule
+    RouterModule
   ],
   exports: [
     ShellComponent
